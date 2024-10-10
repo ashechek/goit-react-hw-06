@@ -35,4 +35,5 @@ export const store = configureStore({
     }),
 });
 
+export const selectNameFilter = (state) => state.filters.name;
 export let persistor = persistStore(store);
