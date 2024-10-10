@@ -1,0 +1,17 @@
+#root {
+    font-family: lexend, sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+input {
+    border-radius: 6px;
+    background-color: #ffffff;
+    border-color: none;
+    border-style: solid;
+    border-width: 0cap;
+}
+
+input:focus {
+    outline: none;
+}

@@ -4,15 +4,20 @@
   flex-direction: column;
   justify-content: center;
   gap: 15px;
-  border: 1px solid black;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 16px;
+  background: #e6e0e9;
 }
 
 .formFieldWrapper {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  letter-spacing: 0.03em;
+  color: #49454f;
 }
 
 .errorMessage {
@@ -21,11 +26,16 @@
 }
 
 .formBtn {
-  border: 1px solid black;
   padding: 8px 5px 8px 5px;
-  border-radius: 5px;
   cursor: pointer;
-  width: 90px;
-  background-color: rgb(255, 255, 255);
   align-self: center;
+  border-radius: 100px;
+  width: 110px;
+  height: 40px;
+  font-family: lexend, sans-serif;
+  background: #65558f;
+  color: #ffffff;
+
+  font-weight: 500;
+  font-size: 14px;
 }

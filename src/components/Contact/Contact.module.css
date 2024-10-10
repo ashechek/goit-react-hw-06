@@ -3,11 +3,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
-  border-radius: 10px;
   padding: 10px;
   width: 300px;
   margin: auto;
+  border-radius: 16px;
 }
 
 .infoList {
@@ -24,8 +23,16 @@
 }
 
 .deleteBtn {
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 60px;
+  border-radius: 16px;
+  width: 83px;
+  height: 40px;
   padding: 8px;
+  background: #65558f;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  font-family: lexend, sans-serif;
 }
